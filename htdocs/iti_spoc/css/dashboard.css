@@ -1,0 +1,128 @@
+/* Start Main Body */
+img {
+  border-radius: 5px 5px 0 0;
+  max-width: 100%;
+  max-height: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  background-color: white;
+  padding: 2px 16px;
+  text-align: center;
+}
+
+.edit-btn a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 0px auto;
+  width: 100%;
+  border: 1px solid black;
+  background-color: black;
+  color: white;
+  margin: 0;
+  margin-bottom: 5px;
+}
+
+.edit-btn a:visited {
+  color: white;
+}
+
+.edit-btn a h3 {
+  display: inline-block;
+  padding: 0 0;
+  background-color: black;
+  color: white;
+  margin: 0;
+}
+
+.card {
+  display: inline-block;
+  flex: left;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.5s;
+  width: 20%;
+  border-radius: 5px;
+  margin: 0px 30px 10px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.6);
+}
+
+.dash-div {
+  display: block;
+  width: 100%;
+  border: 1px solid #000;
+}
+
+.dash-btn {
+  display: inline-block;
+  width: 60%;
+  border: 1px solid #000;
+  background-color: black;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.info-container {
+  width: 300px;
+  background: #ffffff;
+  border-radius: 10px;
+  margin: 100px auto;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.5s;
+  padding-bottom: 15px;
+}
+
+.info-container:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.75);
+}
+
+.header_bg {
+  width: 100%;
+  height: 100px;
+  background-image: linear-gradient(to right bottom, #6569ff, #9653f1);
+  border-radius: 10px 10px 0px 0px;
+}
+
+.user_img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  margin-top: 50px;
+  background: #ffffff;
+  padding: 5px;
+}
+
+.prof_name {
+  font-size: 22px;
+  font-weight: bold;
+  color: #111111;
+  margin-top: 60px;
+}
+
+.prof_info {
+  font-size: 14px;
+  color: #111111;
+  margin: 5px 0px;
+}
+
+#img-user {
+  float: left;
+  radius: 5px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* End Main Body Bar */

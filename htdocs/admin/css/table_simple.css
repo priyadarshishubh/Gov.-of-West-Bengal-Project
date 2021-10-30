@@ -1,0 +1,132 @@
+/* default styling. Nothing to do with freexing first row and column */
+main {
+    display: flex;
+}
+
+main>* {
+    border: 1px solid;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td, th {
+    border: 1px solid;
+    padding: 10px;
+    min-width: 130px;
+    background: white;
+    box-sizing: border-box;
+    text-align: left;
+    transition: background-color 0.7s;
+}
+
+tbody td:hover {
+    background-color: rgb(222, 222, 222);
+}
+
+.table-container {
+    margin: auto auto;
+    padding: 3px;
+    position: relative;
+    max-height: 550px;
+    max-width: 95%;
+    /*max-height: 45%;*/
+    /*overflow-x: scroll;*/
+    /*overflow-y: scroll;*/
+}
+
+thead th {
+    color: white;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    background: #2574a9;
+  /*hsl(20, 50%, 70%)*/
+}
+
+thead th:first-child {
+    left: 0;
+    z-index: 3;
+}
+
+tfoot {
+    position: -webkit-sticky;
+    bottom: 0;
+    z-index: 2;
+}
+
+tfoot td {
+    position: sticky;
+    bottom: 0;
+    z-index: 2;
+    background: #2574a9;
+    /*hsl(20, 50%, 70%)*/
+}
+
+tfoot td:first-child {
+    z-index: 3;
+}
+
+tbody {
+    max-height: 45%;
+    overflow-y: hidden;
+    /*overflow-x: scroll;*/
+    /* height: 200px; */
+}
+
+/* MAKE LEFT COLUMN FIXEZ */
+tr> :first-child {
+    color: white;
+    position: -webkit-sticky;
+    position: sticky;
+    background: #2574a9;
+    /*hsl(180, 50%, 70%)*/
+    left: 0;
+    min-width: 100px;
+    transition: background-color 0.7s ease-out, color 0.7s ease-in-out;
+}
+
+tr> :first-child:hover {
+    color: #525252;
+    font-weight: bold;
+    background-color: rgb(222, 222, 222);
+}
+
+/* Make div's larger on hover */
+
+.video-inspection {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: -webkit-transform 0.5s, opacity 0.5s;
+    transition: transform 0.5s, opacity 0.5s;
+}
+
+.video-inspection:hover {
+    opacity: 1;
+    -webkit-transform: scale(1.15);
+    -ms-transform: scale(1.15);
+    transform: scale(1.15);
+}
+
+/*tr> :first-child {*/
+/*  box-shadow: inset 0px 1px black;*/
+/*}*/
+
+.green-btn {
+    background-color: white;
+    color: black;
+    padding: 5px;
+    text-decoration: none;
+    border: 1px solid black;
+}
+.green-btn:hover {
+    background-color: black;
+    color: white;
+}
+.redhover:hover{
+            background-color: red;
+            background: red;
+}
